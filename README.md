@@ -64,7 +64,7 @@ The `name_ru` / `category_ru` keys change based on the chosen locale (e.g. `name
 
 Item types: `AVATAR_DECORATION`, `PROFILE_EFFECT`, `NAMEPLATE`.
 
-Prices are returned in the currency tied to your account's region.
+Prices are returned in the currency tied to your IP or account's linked card.
 
 ## How it works
 
