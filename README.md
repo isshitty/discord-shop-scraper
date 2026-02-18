@@ -20,10 +20,10 @@ The token is your Discord user authorization token (from browser DevTools > Netw
 ## Usage
 
 ```bash
-python shop_full_fetcher.py                # English + Russian (default)
-python shop_full_fetcher.py -l ja          # English + Japanese
-python shop_full_fetcher.py -l de          # English + German
-python shop_full_fetcher.py --no-previews  # skip image downloads
+python main.py                # English + Russian (default)
+python main.py -l ja          # English + Japanese
+python main.py -l de          # English + German
+python main.py --no-previews  # skip image downloads
 ```
 
 The second locale can also be set via `SECOND_LOCALE` in `.env`.
